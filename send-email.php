@@ -2,7 +2,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['send'])) {
 
     // Twój sekret reCAPTCHA
-    $recaptcha_secret = "6LeFKb4rAAAAALN9TIY2Q45PttMQWTDpdrLRZHUb";
+    $recaptcha_secret = "kodrecaptcha";
 
     // Odbierz token z formularza
     $recaptcha_response = $_POST['g-recaptcha-response'];
