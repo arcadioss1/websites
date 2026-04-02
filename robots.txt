@@ -1,0 +1,6 @@
+User-agent: googlebot-image
+Disallow: 
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://hurtowniarochu.pl/sitemap.xml
